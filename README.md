@@ -6,6 +6,8 @@
 ## Состав команды: 
 ### 1. Барсукова А.А., вариант 76 - техлид
 ### 2. Волошенко М.Е., вариант 5 - разработчик
+### 3. Соколова Д.С., вариант 77 - разработчик
 
 ## Команда сборки
-g++ main.cpp barsukova.cpp voloshenko.cpp -o app ./app
+g++ main.cpp barsukova.cpp voloshenko.cpp -o app 
+./app
