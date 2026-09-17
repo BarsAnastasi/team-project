@@ -34,13 +34,11 @@ int main() {
 		// === БЛОК ОБРАБОТКИ: каждый участник добавляет свои case ===
 
 		case 4:
-			cout << "Введите скорость: ";
-			cin >> v;
+			v = inputV();
 			cout << v << " мили/ч -> " << mphToKmh(v) << " км/ч" << endl;
 			break;
 		case 5:
-			cout << "Введите скорость: ";
-			cin >> v;
+			v = inputV();
 			cout << v << " км/ч -> " << kmhToMph(v) << " мили/ч" << endl;
 			break;
 

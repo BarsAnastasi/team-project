@@ -3,4 +3,5 @@
 // Функции варианта 76 (Барсукова А.А.)
 double mphToKmh(double v);
 double kmhToMph(double v);
+double inputV();
 #endif // BARSUKOVA_H
