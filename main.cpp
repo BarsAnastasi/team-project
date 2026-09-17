@@ -36,16 +36,28 @@ int main() {
 		case 1:
                         cout << "Введите массу в тоннах: ";
                         cin >> value;
+                        if (value < 0) {
+                                cout << "Ошибка: масса не может быть отрицательной.\n";
+                                break;
+                        }
                         cout << "Масса = " << tToKg(value) << " кг\n";
                         break;
                 case 2:
                         cout << "Введите массу в килограммах: ";
                         cin >> value;
+                        if (value < 0) {
+                                cout << "Ошибка: масса не может быть отрицательной.\n";
+                                break;
+                        }
                         cout << "Масса = " << kgToT(value) << " т\n";
                         break;
                 case 3:
                         cout << "Введите массу в тоннах: ";
                         cin >> value;
+                        if (value < 0) {
+                                cout << "Ошибка: масса не может быть отрицательной.\n";
+                                break;
+                        }
                         cout << "Масса = " << tToCwt(value) << " ц\n";
                         break;
 		// === КОНЕЦ БЛОКА ОБРАБОТКИ ===
