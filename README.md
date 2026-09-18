@@ -9,5 +9,5 @@
 ### 3. Соколова Д.С., вариант 77 - разработчик
 
 ## Команда сборки
-g++ main.cpp barsukova.cpp voloshenko.cpp -o app 
+g++ main.cpp barsukova.cpp voloshenko.cpp sokolova.cpp -o app 
 ./app
